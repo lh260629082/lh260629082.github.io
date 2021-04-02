@@ -11,12 +11,12 @@
   <meta name="description" content="1.Laravel &lt;&#x3D; 8.4.2 Debug模式 _ignition 远程代码执行漏洞 需要写poc https:&#x2F;&#x2F;my.oschina.net&#x2F;u&#x2F;4579293&#x2F;blog&#x2F;4898512 https:&#x2F;&#x2F;baijiahao.baidu.com&#x2F;s?id&#x3D;1688935331647363840&amp;wfr&#x3D;spider&amp;for&#x3D;pc https:&#x2F;&#x2F;www.ambioni">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LiHuan&#39;s blog">
-<meta property="og:url" content="http://example.com/2021/03/29/POC/index.html">
+<meta property="og:url" content="http://example.com/2021/04/02/POC/index.html">
 <meta property="og:site_name" content="LiHuan&#39;s blog">
 <meta property="og:description" content="1.Laravel &lt;&#x3D; 8.4.2 Debug模式 _ignition 远程代码执行漏洞 需要写poc https:&#x2F;&#x2F;my.oschina.net&#x2F;u&#x2F;4579293&#x2F;blog&#x2F;4898512 https:&#x2F;&#x2F;baijiahao.baidu.com&#x2F;s?id&#x3D;1688935331647363840&amp;wfr&#x3D;spider&amp;for&#x3D;pc https:&#x2F;&#x2F;www.ambioni">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-03-29T02:42:16.000Z">
-<meta property="article:modified_time" content="2021-03-29T02:42:16.000Z">
+<meta property="article:published_time" content="2021-04-02T08:03:08.864Z">
+<meta property="article:modified_time" content="2021-04-02T08:03:08.864Z">
 <meta property="article:author" content="LiHuan">
 <meta name="twitter:card" content="summary">
   
@@ -166,7 +166,9 @@
 <p><a target="_blank" rel="noopener" href="https://github.com/facade/ignition/pull/334">https://github.com/facade/ignition/pull/334</a></p>
 <p><a target="_blank" rel="noopener" href="https://s.tencent.com/research/bsafe/1222.html">https://s.tencent.com/research/bsafe/1222.html</a></p>
 <p>POC ：<a target="_blank" rel="noopener" href="https://day.fujieace.com/vulnerability/5034.html">https://day.fujieace.com/vulnerability/5034.html</a></p>
-<p><font color=#ff7d00>2.Spring 模板View名称任意操作漏洞</font><br>参考链接：<a target="_blank" rel="noopener" href="https://github.com/veracode-research/spring-view-manipulation/">https://github.com/veracode-research/spring-view-manipulation/</a><br><font color=#ff7d00>3.Confluence 服务器端模板注入（SSTI）漏洞（CVE-2019-3396）</font><br>漏洞详情请移步观看：<a target="_blank" rel="noopener" href="https://zhaijiahui.github.io/2019/06/06/Confluence_CVE20193396/">https://zhaijiahui.github.io/2019/06/06/Confluence_CVE20193396/</a><br><font color=#ff7d00>4.Apereo CAS 4.1.X 反序列化漏洞 远程代码执行</font></p>
+<p><font color=#ff7d00>2.Spring 模板View名称任意操作漏洞</font><br>参考链接：<a target="_blank" rel="noopener" href="https://github.com/veracode-research/spring-view-manipulation/">https://github.com/veracode-research/spring-view-manipulation/</a></p>
+<span id="more"></span>
+<p><font color=#ff7d00>3.Confluence 服务器端模板注入（SSTI）漏洞（CVE-2019-3396）</font><br>漏洞详情请移步观看：<a target="_blank" rel="noopener" href="https://zhaijiahui.github.io/2019/06/06/Confluence_CVE20193396/">https://zhaijiahui.github.io/2019/06/06/Confluence_CVE20193396/</a><br><font color=#ff7d00>4.Apereo CAS 4.1.X 反序列化漏洞 远程代码执行</font></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/zy15667076526/article/details/111414240">https://blog.csdn.net/zy15667076526/article/details/111414240</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/leesir98/article/details/112215244">https://blog.csdn.net/leesir98/article/details/112215244</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.freesion.com/article/26401236905/">https://www.freesion.com/article/26401236905/</a></p>
@@ -257,7 +259,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABt0lEQVR42u3aMW7EMAwEwPv/py9A2gDykpRlIxhVbuwbXUGIS30+8fr+ruQ5WX/f3bxwcXHH3PzT6x+osvKt4uLiPsXNP7d+NylPvS3h4uK+k1ul5wUOFxf3v3Ln38TFxX0bN48wLpqTAHeoV8PFxR1w9wamvefH8l1cXNziVGJdUNaHnvVbvYWLi3uG2xuBrKPPagtU/jIuLu5BbjXonBSpDdcvcHFxH+JWI4z5BYvR9QtcXNyt3EkxyuPUfHBSiEpxcXFv5vbamPnotLpVXFzck9x19Nk7gkyan3LdxcXFvZnbizurzcyohOHi4t7G7cWg+ZB1cqXjIr/BxcW9jVsdaeTVsRegRE0ULi7uQW6vSOWhai82HfVnuLi4LW5SbspHkK0hy0UJw8XFfYibX8BKBqW9AS0uLu5Jbr7y5iTZau8XcXFxz3C/xZXvex7F4uLiPsWtFrLqBYvJQapa+HBxcfdyq8Urb2yStqe8GVxc3IPc3thj3uRUB7q4uLhv4/auXVZbnYu/CRcX95XcvE2qXraISicuLu5BbjUk3TVkLR+qcHFxj3CrgekdTVH5oIOLi3sX9wf4iuwLMin6vgAAAABJRU5ErkJggg==" alt="微信分享二维码">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABvUlEQVR42u3awaoCMQwFUP//p33wVoJYb9JOVDhZSZ3OnG5Cm/R2i+P+H69Gnv99HH+M5/HbFYGLi7vNvS8jx60pyTvXBlxc3HnuOnmtX1Fd6vqZNzZcXNwv4+aJqboxwsXF/V1uEuu5veMTLi7up7jJ56uI/IB0yVkNFxd3g1stmF7x+8L6Li4ubpF7L0Y+K1924eu4uLgj3LycsXVciUskUZrDxcUd5O43SKrXL/KdDC4u7jy38FCcnvLxfC4uLu4Mt1e4zFsmvQPVSzouLu44t5piTjVWC5c8cHFxR7h5AsqJecM1SXnNDi0uLu4291QRpPnh4tUNXFzcSe4+PUmFOwkUFxd3hpu8rno/Kk9n+TguLu5nudWrGKeKp1utFFxc3KPcfB9U6NYWS67VWbi4uFdzqyXRaomkep/qjQcXF3eQu5+Shmbh4uIOcvPoNUfz0kmzZYKLi3uUW00o603P2a3SzkYKFxd3n3td8uolsjfvx8XFHeQmyavXTK0WWKNWCi4u7tdw8+1Iji4vDxcX96e41asVzbSIi4s7yO1dmUqKINWSyrGyCC4u7ga3VzCtLrLXXsXFxR3n/gGJUyULZYplVQAAAABJRU5ErkJggg==" alt="微信分享二维码">
     </div>
 </div>
 
@@ -271,7 +273,7 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/03/29/url/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2021/04/02/url/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
@@ -281,8 +283,8 @@
     </a>
   
   
-    <a href="/2021/03/24/hello-world-1/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">hello-world</div>
+    <a href="/2021/04/01/XSS&SQL/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
       <i class="icon-circle-right"></i>
     </a>
   
